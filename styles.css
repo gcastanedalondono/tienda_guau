@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+
+
+header{
+    background-color: blue;
+    height: 150px;
+    padding: 10px;
+    text-align: center;
+
+}
+
+.logo_inicial{
+    height: 145px;
+}
+
+.header-image {
+    width: 150px; /* Ajusta el tamaño de la imagen al ancho del header */
+    height:140px ; /* Mantiene la proporción de la imagen */
+
+}
+
+/*estilos en mobile*/
+
+@media (max-width: 641px) {
+
+
+}
