@@ -27,6 +27,13 @@ header{
 
 @media (max-width: 641px) {
 
+    header{
+        background-color: blue;
+        height: 72px;
+        padding: 5px;
+        text-align: center;
+    
+    }
 
 }
 
@@ -34,5 +41,12 @@ header{
  
  @media (min-width: 642px) {
 
+    header{
+        background-color: blue;
+        height: 150px;
+        padding: 10px;
+        text-align: center;
+    
+    }
 
  }
