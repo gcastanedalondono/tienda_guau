@@ -12,7 +12,14 @@
 
   <header>
   <div class ="logo_inicial">
-    <img src="header.png" class="header-img">
+    <picture>
+      <!-- Imagen para pantallas grandes (escritorios) -->
+      <source srcset="header.png" media="(min-width: 768px)">
+      <!-- Imagen para pantallas pequeñas (móviles) -->
+      <source srcset="header_mobile.png" media="(max-width: 767px)">
+      <!-- Imagen por defecto si los medios anteriores no coinciden -->
+      <img src="header_mobile.png" alt="Imagen responsive">
+  </picture>
   </div>
   </header>
 
