@@ -35,6 +35,27 @@ header{
     
     }
 
+ .container{
+    display:block;
+    justify-content: space-between;
+    gap: 40px; 
+    margin: 0 70px;
+    margin-top: 50px;
+    }  
+ }   
+
+.item{
+
+    background-color: lightblue;
+    padding: 20px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    height: 200px;
+    min-width: 200px; /* Ancho mínimo para cada contenedor */
+    text-align: center; 
+
+
+}
 }
 
  /*estilos en Desktop*/
@@ -66,4 +87,6 @@ header{
         min-width: 200px; /* Ancho mínimo para cada contenedor */
         text-align: center; 
 
- }
+        }
+
+    }
