@@ -45,6 +45,14 @@ header{
     
     }
 
+ .contenedor_header1{
+    display: flex;
+    align-items: center; /* Centra verticalmente */
+    justify-content: center; /* Centra horizontalmente (opcional) */
+   
+    
+ }   
+
  .container{
     display:block;
     justify-content: space-between;
@@ -100,5 +108,13 @@ header{
         text-align: center; 
 
         }
+
+        .contenedor_header1{
+            display: flex;
+            align-items: center; /* Centra verticalmente */
+            justify-content: center; /* Centra horizontalmente (opcional) */
+           
+            
+         }     
 
     }
