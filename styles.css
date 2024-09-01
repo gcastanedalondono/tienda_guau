@@ -37,59 +37,50 @@ header{
 
 @media (max-width: 641px) {
 
-    header{
-        background-color: blue;
-        height: 72px;
-        padding: 5px;
-        text-align: center;
+    @media (max-width: 641px) {
+        header {
+            height: 72px;
+            padding: 5px;
+        }
     
+        .contenedor_header1 {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    
+        .container {
+            margin: 0 10px; /* Ajusta el margen para dispositivos móviles */
+            margin-top: 50px;
+            display: grid;
+            grid-auto-flow: row;
+            row-gap: 30px;
+        }
+    
+        .item {
+            background-color: lightblue;
+            padding: 10px;
+            margin: 10px;
+            border: 1px solid #ccc;
+            height: auto; /* Deja que la altura se ajuste automáticamente */
+            min-width: 200px; /* Asegura un ancho mínimo */
+            text-align: center;
+        }
+    
+        .imagen {
+            display: block;
+            height: auto; /* Permite que la altura se ajuste automáticamente */
+            width: 100%; /* Ajusta el ancho al 100% del contenedor */
+            max-width: 100%; /* Asegura que la imagen no sobrepase el contenedor */
+            margin-bottom: 10px;
+        }
+    
+        .parrafo_inicial {
+            margin-top: 10px; /* Ajusta el margen para que el texto se vea mejor */
+        }
     }
 
- .contenedor_header1{
-    display: flex;
-    align-items: center; /* Centra verticalmente */
-    justify-content: center; /* Centra horizontalmente (opcional) */
-   
-    
- }   
-
- .container{
-    
-   
-    margin: 0 70px;
-    margin-top: 50px;
-    display: grid;
-    grid-auto-flow: row;
-    row-gap: 30px; 
-    }  
-    
-
-.item{
-
-    background-color: lightblue;
-    padding: 10px;
-    gap: 40px;
-    margin: 10px;
-    border: 1px solid #ccc;
-    height: 200px;
-    min-width: 200px; /* Ancho mínimo para cada contenedor */
-    text-align: center; 
-
-
 }
-
-.imagen{
-    display: block;
-    height:120px ;
-    width: 90px;
-    margin-bottom: 10px;
- }
-.parrafo_inicial{
-    margin-top: 98px;
-}
-
-}
-
  /*estilos en Desktop*/
  
  @media (min-width: 642px) {
